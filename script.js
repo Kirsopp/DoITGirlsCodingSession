@@ -176,7 +176,7 @@ const questions = [
 
       { text: 'Taylor Swift', correct: true },
 
-      { text: 'Donald Trump', correct: false },
+      { text: 'Donald Trump 2', correct: false },
 
       { text: 'Olivia Rodrigo', correct: false },
 
