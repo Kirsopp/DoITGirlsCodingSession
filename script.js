@@ -142,9 +142,9 @@ const questions = [
 
     answers: [
 
-      { text: '5', correct: true },
+      { text: '5', correct: false },
 
-      { text: '4', correct: false }
+      { text: '4', correct: true }
 
     ]
 
@@ -158,9 +158,9 @@ const questions = [
 
       { text: 'Coal', correct: false },
 
-      { text: 'Oil', correct: true },
+      { text: 'Oil', correct: false },
 
-      { text: 'Solar Energy', correct: false },
+      { text: 'Solar Energy', correct: true },
 
       { text: 'Natural Gas', correct: false }
 
@@ -174,9 +174,9 @@ const questions = [
 
     answers: [
 
-      { text: 'Taylor Swift', correct: false },
+      { text: 'Taylor Swift', correct: true },
 
-      { text: 'Donald Trump', correct: true },
+      { text: 'Donald Trump', correct: false },
 
       { text: 'Olivia Rodrigo', correct: false },
 
@@ -188,17 +188,17 @@ const questions = [
 
   {
 
-    question: 'Consider an economy that is currently in a recessionary gap. Which of the following policy measures is most likely to increase aggregate demand and close the gap?',
+    question: 'What is the name of the program that NASA is currently implementing to get humantity back to the Moon?',
 
     answers: [
 
-      { text: 'Decreasing government spending', correct: false },
+      { text: 'Apollo', correct: false },
 
-      { text: 'Increasing taxes', correct: false },
+      { text: 'Mercury', correct: false },
 
-      { text : 'Increasing government spending', correct: false},
+      { text : 'Artemis', correct: true},
 
-      { text : ' None of the above, as recessionary gaps close automatically over time', correct: false }
+      { text : ' Titan Reborn', correct: false }
 
     ]
 
